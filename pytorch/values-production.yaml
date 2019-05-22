@@ -61,12 +61,12 @@ entrypoint:
 ## Set to `distributed` in order to enable distributed mode
 ##   mode: distributed
 ##
-mode: standalone
+mode: distributed
 
 ## Number of nodes that will run the code
 ##   WORLD_SIZE will be set to this value
 ##
-#worldSize:
+worldSize: 4
 
 ## The port used to comunicate with the master
 ##   MASTER_PORT will be set to this value
